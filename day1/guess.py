@@ -14,6 +14,7 @@ while count <3:
     elif guess_age<real_age:
         print("猜小了")
     count +=1
+#增加重新开始的判断
     if count == 3:
         continue_confirm = input("是否继续 y/n")
         if continue_confirm == 'y':
